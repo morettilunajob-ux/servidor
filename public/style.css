@@ -12,12 +12,47 @@ body {
 header {
   padding: 2rem;
   text-align: center;
+  background: #1b1b1b;
+  color: #fff;
+}
+
+header .rating,
+header .status {
+  margin: 0.25rem 0 0;
+  color: #ccc;
 }
 
 main {
   max-width: 600px;
   margin: 0 auto;
   padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 1.1rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+#info ul {
+  list-style: none;
+  padding: 0;
+}
+
+#info li {
+  margin: 0.5rem 0;
+}
+
+#reviews blockquote {
+  margin: 0 0 1rem;
+  padding: 0.75rem 1rem;
+  background: #fff;
+  border-left: 3px solid #0b5;
+  border-radius: 4px;
 }
 
 #chat-log {

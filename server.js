@@ -13,7 +13,7 @@ app.post('/api/chat', (req, res) => {
   if (!message) {
     return res.status(400).json({ error: 'Campo "message" é obrigatório.' });
   }
-  res.json({ reply: 'Assistente de IA ainda não configurado.' });
+  res.json({ reply: 'Assistente da Barbearia Silva\'s ainda não configurado.' });
 });
 
 app.listen(PORT, () => {
